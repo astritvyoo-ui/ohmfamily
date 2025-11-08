@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Kak Rima 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#ffe6f2; animation:fadeIn 1s ease;">
+
+  <h2>Kak Rima Mutiara Gultom 💖</h2>
+  <p>Kak Rima my beloveeee sistur yang lembut dan penyayang 🌷  
+  Terima kasih udah selalu jadi sosok kakak yang sabar, peduli,ceria dan perhatian.  
+  Kamu bikin Ohm jadi tempat yang penuh kasih dan semangat.hihi maaf kehadiranku membuat kak tidak jadi pudan agiii
+  Love you, Kak Rimrim 💕</p>
+
+  <div class="photos">
+    <img src="img/kakak1.jpg" alt="Kak Rima 1">
+    <img src="img/kakak2.jpg" alt="Kak Rima 2">
+    <img src="img/kakak3.jpg" alt="Kak Rima 3">
+  </div>
+
+  <button class="btn" onclick="window.location.href='keluarga.html'">Next ➡️</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keluarga Ohm Family 💐</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#fff7fb; animation:fadeIn 1s ease;">
+
+  <h2>Kenangan Indah Bersama Ohm Family 💐</h2>
+  <p>Setiap momen bersama kalian adalah hadiah yang tak ternilai.  
+  Terima kasih sudah jadi bagian dari perjalanan indah ini 💕✨</p>
+
+  <div class="gallery">
+    <img src="img/fam1.jpg" alt="Keluarga 1">
+    <img src="img/fam2.jpg" alt="Keluarga 2">
+    <img src="img/fam3.jpg" alt="Keluarga 3">
+    <img src="img/fam4.jpg" alt="Keluarga 4">
+    <img src="img/fam5.jpg" alt="Keluarga 5">
+    <img src="img/fam6.jpg" alt="Keluarga 6">
+    <img src="img/fam7.jpg" alt="Keluarga 7">
+    <img src="img/fam8.jpg" alt="Keluarga 8">
+    <img src="img/fam9.jpg" alt="Keluarga 9">
+    <img src="img/fam10.jpg" alt="Keluarga 10">
+    <img src="img/fam11.jpg" alt="Keluarga 11">
+    <img src="img/fam12.jpg" alt="Keluarga 12">
+    <img src="img/fam13.jpg" alt="Keluarga 13">
+    <img src="img/fam14.jpg" alt="Keluarga 14">
+    <img src="img/fam15.jpg" alt="Keluarga 15">
+    <img src="img/fam16.jpg" alt="Keluarga 16">
+    <img src="img/fam17.jpg" alt="Keluarga 17">
+    <img src="img/fam18.jpg" alt="Keluarga 18">
+    <img src="img/fam19.jpg" alt="Keluarga 19">
+    <img src="img/fam20.jpg" alt="Keluarga 20">
+  </div>
+
+  <button class="btn" onclick="window.location.href='thankyou.html'">Next ➡️</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Pudan 🌷</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#fdf3ff; animation:fadeIn 1s ease;">
+
+  <h2>Hai, Aku Pudan Ohm 🌷</h2>
+  <p>Aku hanyalah seseorang yang sangat sangat beruntung bisa menjadi bagian dari Ohm Family 💕  
+  Terima kasih sudah jadi rumah kedua yang penuh tawa, dukungan, dan kasih sayang.Maaf aku kadang bawel dan bersik.
+  Bersama kalian, aku belajar arti kebersamaan, kekeluargaan, dan rasa sayang yang tulus ✨  
+  Semoga kita selalu bersama dalam suka maupun duka 💫</p>
+
+  <div class="photos">
+    <img src="img/pudan1.jpg" alt="Pudan 1">
+    <img src="img/pudan2.jpg" alt="Pudan 2">
+    <img src="img/pudan3.jpg" alt="Pudan 3">
+    <img src="img/pudan4.jpg" alt="Pudan 4">
+  </div>
+
+  <button class="btn" onclick="window.location.href='keluarga.html'">Next ➡️</button>
+
+</body>
+</html>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff5f8;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  transition: background 0.6s ease;
+  padding: 1rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  max-width: 600px;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #ffcce1;
+  color: #444;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #ffb6c1;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.photos img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.photos img:hover {
+  transform: scale(1.05);
+}
+
+/* Galeri banyak foto */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Confetti canvas */
+canvas#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You Ohm Family 🎉</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h1 {
+      font-size: 2.5rem;
+      color: #ff8fb1;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body style="background-color:#fff0f6; animation:fadeIn 1s ease;">
+  <canvas id="confetti"></canvas>
+
+  <h1>Thank You Ohm Family 💕</h1>
+  <p>Terima kasih untuk semua tawa,kasih sayang, dan kebersamaan kita.  
+  Kalian akan selalu jadi bagian berharga dalam perjalanan ini 💫</p>
+  <p>With love,  
+  <strong>Pudan 🌸</strong></p>
+
+  <script>
+    // Simple confetti animation
+    const canvas = document.getElementById('confetti');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const confettis = [];
+    const colors = ['#ffb6c1','#ffd6a5','#caffbf','#9bf6ff','#bdb2ff','#ffc6ff'];
+
+    function Confetti() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * canvas.height - canvas.height;
+      this.size = Math.random() * 8 + 4;
+      this.color = colors[Math.floor(Math.random() * colors.length)];
+      this.speed = Math.random() * 3 + 1;
+      this.angle = Math.random() * 2 * Math.PI;
+    }
+
+    Confetti.prototype.update = function() {
+      this.y += this.speed;
+      this.x += Math.sin(this.angle);
+      if (this.y > canvas.height) {
+        this.y = -10;
+        this.x = Math.random() * canvas.width;
+      }
+    };
+
+    Confetti.prototype.draw = function() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+    };
+
+    for (let i = 0; i < 150; i++) {
+      confettis.push(new Confetti());
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      confettis.forEach(c => {
+        c.update();
+        c.draw();
+      });
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Abang Alphi 💙</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#d6ecff; animation:fadeIn 1s ease;">
+
+  <h2> Alphi Putra Sanjaya Sipayung S.T 💙</h2>
+  <p>Ini abang tertuaa(yang pernah kujumpa ya)
+    Terima kasih Abang Alphi, untuk semua motivasi, keteladanan, dan kepeduliannya.  
+  Abang harus selalu semangat menjalani dunia pekerjaannya, tetap jaga kesehatannya abang 
+  miss you abangkuuuhhh💪✨</p>
+
+  <div class="photos">
+    <img src="img/alphi1.jpg" alt="Abang Alphi 1">
+    <img src="img/alphi2.jpg" alt="Abang Alphi 2">
+    <img src="img/alphi3.jpg" alt="Abang Alphi 3">
+  </div>
+
+  <button class="btn" onclick="window.location.href='abang2.html'">Next ➡️</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Abang Samuel 💚</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#d9f8e5; animation:fadeIn 1s ease;">
+
+  <h2>Abang Samuel Parlindungan Ambarita 💚</h2>
+  <p>Abang Samuel abang kedua, sosok yang amat sangatt ngebelin dan selalu bisa mencairkan suasana.  
+  Terima kasih abang sudah menjadi oarang yang amat perhatian walaupun awal-awal aku kira abang cuekk abiss.  
+  Kehadiran abang bikin aku ngerasain ada orang kayak abang dan membuat ohm terasa lebih hangat dan berwarna 🌿✨</p>
+
+  <div class="photos">
+    <img src="img/samuel1.jpg" alt="Abang Samuel 1">
+    <img src="img/samuel2.jpg" alt="Abang Samuel 2">
+    <img src="img/samuel3.jpg" alt="Abang Samuel 3">
+  </div>
+
+  <button class="btn" onclick="window.location.href='abang3.html'">Next ➡️</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Abang Rejeki 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#f0e4ff; animation:fadeIn 1s ease;">
+
+  <h2>Abang Rejeki Adi Putra Lumban Batu 💜</h2>
+  <p>Abang Rejeki abang ketiga , abang paling cuek,sibuk, dan paling introvert tapi paling support 😄  
+  Terimakasih bang udah hadir untuk membantu dan mengajari kami tolong dikurangin sisi selebnya 
+  Tetap jadi abang yang ku kenal ya, yang kalo jumpa ketawa muluuukkk (pusing awak liatnya)! 💪💜</p>
+
+  <div class="photos">
+    <img src="img/rejeki1.jpg" alt="Abang Rejeki 1">
+    <img src="img/rejeki2.jpg" alt="Abang Rejeki 2">
+    <img src="img/rejeki3.jpg" alt="Abang Rejeki 3">
+  </div>
+
+  <button class="btn" onclick="window.location.href='kakak.html'">Next ➡️</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halooo my Ohm Family 💕</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#ffeef8; animation:fadeIn 1s ease;">
+  
+  <h1>Halooo Ohm Family 💕</h1>
+  <p>Selamat datang di halaman kecil ini, dibuat dengan penuh cinta(sik asik wkwk)🌸  
+  untuk kaka abangku yang lucu imut nan gemashh 💗</p>
+  
+  <audio id="bg-music" loop autoplay>
+    <source src="/music/piano.mp3" type="audio/mpeg">
+  </audio>
+  
+  <button class="btn" onclick="window.location.href='abang1.html'">Mulai 🎵</button>
+
+</body>
+</html>
